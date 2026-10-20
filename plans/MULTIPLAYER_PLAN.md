@@ -1,6 +1,6 @@
 # Multiplayer: people and agents in the same documents at once
 
-Status: proposed, 2026-10-19 (fizzyedit/plans#33). Builds on `SHARED_HISTORY_PLAN.md` (#14),
+Status: proposed, 2026-10-19 (roadmap#9). Builds on `SHARED_HISTORY_PLAN.md` (#14),
 `RECORDING_PLAN.md` (tracks), `AGENTS_ANYWHERE_PLAN.md` (#31, the relay and its rooms),
 `AGENT_VIEW_PLAN.md` (#18) and `CONTROL_SERVER_PLAN.md`. Amends `SHARED_HISTORY_PLAN.md` on
 undo, for documents in a room only (see "Amendments").

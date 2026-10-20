@@ -1,8 +1,8 @@
 # Any agent, on the desktop and the web
 
-Status: proposed, 2026-10-19 (fizzyedit/plans#31); relay hosting decided 2026-10-19. Builds on CONTROL_SERVER_PLAN (steps 5b–7),
+Status: proposed, 2026-10-19 (roadmap#8); relay hosting decided 2026-10-19. Builds on CONTROL_SERVER_PLAN (steps 5b–7),
 AGENT_VIEW_PLAN (#18), SHARED_HISTORY_PLAN (#14) and AGENTS_PLAN ("The web"). Multiplayer
-across machines is its own plan (fizzyedit/plans#33), on the same rooms.
+across machines is its own plan (roadmap#9), on the same rooms.
 
 **The goal, end to end:** on a phone, open fizzyed.it/app, open a sprite in pixi, chat with Claude,
 and watch it draw. With the Mac open, `fizzy-link` runs there; with the Mac closed, the same agent
@@ -567,7 +567,7 @@ live in a cloud session when the Mac is closed.
 
 ## Later: people working together
 
-Several people in one room, on different machines: a plan of its own (fizzyedit/plans#33), on this
+Several people in one room, on different machines: a plan of its own (roadmap#9), on this
 plan's rooms (the relay raises `max_members`, and adds the sequencer; its payloads stay sealed). Still to design: a room-ordered step log; rebasing concurrent steps or regional
 claims; presence; joining mid-session from a track's checkpoint.
 

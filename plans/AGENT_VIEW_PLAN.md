@@ -12,8 +12,8 @@ what has to change for an agent's work to carry on unseen, and for the person an
 each other's work in one document.
 
 It builds on `AGENTS_PLAN.md` ("Senses": reading fizzy at four depths), on
-`SHARED_HISTORY_PLAN.md` (fizzyedit/plans#15: who made each step, an agent's `expect`, "the agent
-hears it") and on `RECORDING_PLAN.md` (fizzyedit/plans#17, the per-document track). It amends
+`SHARED_HISTORY_PLAN.md` (a private plan: who made each step, an agent's `expect`, "the agent
+hears it") and on `RECORDING_PLAN.md` (a private plan, the per-document track). It amends
 none of them; its additions to them are listed at the end.
 
 ## What there is

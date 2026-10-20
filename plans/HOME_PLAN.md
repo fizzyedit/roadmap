@@ -103,7 +103,7 @@ leave a leaf under a floor (200x140 pt, a framework constant beside `Region.Init
 here so it is not invented ad hoc.
 
 Narrow regions: an arranged region narrower than 600 px of its own width (not the window's; Decisions 6) lays its leaves out as **one column in tree order** inside a
-single scroll area, each at its natural height with the floor as minimum - the same idea as plans#36's
+single scroll area, each at its natural height with the floor as minimum - the same idea as roadmap#11's
 FieldRow stacking (rows that fit any width), applied to leaves. The arrangement is unchanged and
 returns on a wide window. It is a pure function from (tree, width) to a list, so it is unit-testable
 on Linux. Drag/split are disabled while stacked (the wheel on a 360-pt column is not usable).
@@ -172,7 +172,7 @@ Cloud = Linux, tests only. Eye = needs macOS/GPU and the maintainer's eye.
    builds on 1. Pure (tree, region width) -> column function, stacking below 600 px of the region's own width, + the 200x140 floor on splits; may measure comparable apps and adjust with reasons (Decisions 6).
    **cloud** (function tests), **eye** on a phone/web (`docs` phone recipe).
    Kickoff - Task: narrow stacking and floors. Plan: §5. Builds on: layout/arranged-plugin-region.
-   Workspace: `home5`. Branch: layout/arranged-stack. Notes: model on plans#36's FieldRow; disable
+   Workspace: `home5`. Branch: layout/arranged-stack. Notes: model on roadmap#11's FieldRow; disable
    split/drag while stacked; arrangement must survive a resize round trip; check-web.
 6. **devtools / guides / store tiles** - fizzy, three PRs `devtools/home-tile`, `guides/home-tile`,
    `store/home-tile`, each builds on 3. Static plugin tiles; devtools turns profiling on only while

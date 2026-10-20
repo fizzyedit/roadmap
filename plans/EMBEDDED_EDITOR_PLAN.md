@@ -11,7 +11,7 @@ process stays the design**, the protocol is a C API (`fizzy_remote.h`) with an i
 signed standalone component is the fallback, and a pasteboard exchange format bridges apps (steps 19-22).
 Related: `CONTROL_SERVER_PLAN.md` and `docs/CONTROL.md` (the socket), `POPOUT_WINDOWS_PLAN.md` and
 `NATIVE_WINDOWS_PLAN.md` (fizzy's own extra OS windows), `UNIFIED_DRAG_PLAN.md` (step 11), `SHARED_HISTORY_PLAN.md`,
-`WEB_EMBED_PLAN.md` (keys only while focused), fizzyedit/plans#35 (`--quiet`; fizzy#645 landed the flag, #655 is the
+`WEB_EMBED_PLAN.md` (keys only while focused), roadmap#10 (`--quiet`; fizzy#645 landed the flag, #655 is the
 backend acting on it). `APP_BUILD_API_PLAN.md` step 2 (one editor wiring) and step 6 are **no longer needed for
 embedding**: nothing links fizzy's editor into a host any more. They stand for their own reasons.
 

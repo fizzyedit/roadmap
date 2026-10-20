@@ -2,7 +2,7 @@
 
 Status: decided 2026-10-19, ready to build (fizzyedit/fizzy#527). Requested by Graphl, an app built on fizzy as a library.
 Related: `WEB_EMBED_PLAN.md` (its web build options are this plan's `addWeb`),
-`EMBEDDED_EDITOR_PLAN.md` (its `addEmbedded` is built on step 2 here), fizzyedit/plans#13 (apps
+`EMBEDDED_EDITOR_PLAN.md` (its `addEmbedded` is built on step 2 here), roadmap#2 (apps
 choose fizzy's plugins; done but its step 3), `LIB_CHECKPOINT.md`.
 
 ## The problem
@@ -109,7 +109,7 @@ Plan, Builds on, Workspace (a worktree at `~/dev/fizzy-<slug>`), Branch, Notes.
    → Modules`: core, icons, sdk, the linked plugins (`plugins.link`), `bundled_plugins`, `app`,
    `app_layout`, nightwatch, singleton. The exe, the web build and `test-integration` call it.
    The test build then links its plugins through `plugins.link` like the others, which drops the
-   test build's own list (fizzyedit/plans#13 left it, "since it tests fizzy itself": the list
+   test build's own list (roadmap#2 left it, "since it tests fizzy itself": the list
    becomes `plugins.entries.all`, which is the same thing). `EMBEDDED_EDITOR_PLAN.md` step 4 is
    this function exposed.
    *Verify:* the gates; `check-tests-reached` still finds every test; integration test count

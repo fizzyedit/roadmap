@@ -341,7 +341,7 @@ hooks; (3) documents and save/close flows; (4) `EditorAPI` adapters last, at whi
 
 Not the primary design. The default way to embed fizzy in a host that owns its window and frame
 loop (Graphl in Unreal, Blender, a web page) is out-of-process: the host shows a remote view of
-a running fizzy over the control socket (`plans/EMBEDDED_EDITOR_PLAN.md`, plans#39 and plans#44).
+a running fizzy over the control socket (`plans/EMBEDDED_EDITOR_PLAN.md`, a private plan and a private plan).
 
 The fallback is a tier between `sdk/` and `app/`, say `embed/`: a `Host` and a `Layout` you drive
 from your own `dvui.Window`, frame by frame, labelled **standalone, not connected to fizzy**.

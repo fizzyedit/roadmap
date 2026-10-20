@@ -4,7 +4,7 @@ Status: proposed.
 
 Fizzy has four plans that each record what happens, in four different ways: a document's undo
 history shown as a timeline (`HISTORY_TIMELINE_PLAN.md`), who made each step and the agent's
-session tape (`SHARED_HISTORY_PLAN.md`, fizzyedit/plans#15), the black box of raw input
+session tape (`SHARED_HISTORY_PLAN.md`, a private plan), the black box of raw input
 (`RECORDER_PLAN.md`), and the demo recorder of anchored input (`AUTOMATION_PLAN.md`, milestone 5).
 This plan makes them one system, and gives it the job none of them does alone. Draw something in
 pixi, scrub back through how it was made, select the part worth showing, and share it as a file of

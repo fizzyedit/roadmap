@@ -42,7 +42,7 @@ them in. Nothing at the edge is drawn on its own: only the necks where controls 
   controls' rects plus the merge distance, clipped to the place. Nothing per place, per frame,
   when no control is near an edge.
 - **No glass** (frost, transparent, off): clipped rounded fills, no neck. Whatever material
-  fizzyedit/plans#27 settles a shape in, the outline cuts it the same way.
+  roadmap#6 settles a shape in, the outline cuts it the same way.
 - **A place with no card** (the explorer): its outline is the window's.
 
 ## Steps (one PR each)

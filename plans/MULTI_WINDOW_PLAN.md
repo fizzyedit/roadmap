@@ -1,6 +1,6 @@
 # Multi-window: OS windows as a first-class part of fizzy and of dvui
 
-Status: in progress. Steps 1–3 and 3a (tear-off) are in fizzy `main` (#492, #501, #504, #510; #548, #577, #579, #591, #594, #605), and so is the window material for a plain dvui app, in-app windows included (#546, #549, #565, #586, #589, #590). Next: fizzy's own windows in the material (step 5 and fizzyedit/plans#27), then Windows and Linux (step 6).
+Status: in progress. Steps 1–3 and 3a (tear-off) are in fizzy `main` (#492, #501, #504, #510; #548, #577, #579, #591, #594, #605), and so is the window material for a plain dvui app, in-app windows included (#546, #549, #565, #586, #589, #590). Next: fizzy's own windows in the material (step 5 and roadmap#6), then Windows and Linux (step 6).
 
 Fizzy's live resize is smooth on every window it draws, and the user wants that to carry an app
 of many windows (2026-10-17). This plan is the order that work goes in, for fizzy, for its backend
@@ -48,7 +48,7 @@ comes in only at the app's edges.
 **Backend first** (the user, 2026-10-18): dvui has to keep working on the backends that aren't
 fizzy's, so a feature goes in fizzy's backend wherever it can, and a dvui hook only where nothing
 else will do. The tear-off reads its drag from what dvui already shows, with no hook. The window
-material is fizzy's (`core.material`, fizzyedit/plans#27), not dvui's. The hooks dvui keeps are
+material is fizzy's (`core.material`, roadmap#6), not dvui's. The hooks dvui keeps are
 the ones a backend can't do without (`floatingWindowOs`, `floatingWindowTitle`, the `os_window`
 ask; `drawRetained`, `screensSet`; and `floatingWindowBackground`, below).
 
@@ -146,7 +146,7 @@ For a plain dvui app on fizzy's backend, done:
   a refresh, and contention tips it.
 
 **Next:** fizzy's own windows (it dresses them itself, `app_dresses_windows`) in the same material,
-one path for both (fizzyedit/plans#27); Windows (Acrylic) and Linux (compositor blur) for
+one path for both (roadmap#6); Windows (Acrylic) and Linux (compositor blur) for
 `platform.window.plainMaterial`, which is macOS only.
 
 ## Open questions
